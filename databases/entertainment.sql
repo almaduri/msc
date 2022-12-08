@@ -26,7 +26,7 @@ CREATE TABLE `watched_anime` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=164 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=165 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -185,7 +185,7 @@ INSERT INTO `watched_anime` VALUES
 (147,'The Fruit of Evolution: Before I Knew It, My Life Had It Made'),
 (148,'Takt Opt. Destiny'),
 (149,'The World\'s Finest Assassin Gets Reincarnated in Another World as an Aristocrat'),
-(150,'Banished from the Hero’s Party, I Decided to Live a Quiet Life in the Countryside'),
+(150,'Banished from the Hero\'s Party, I Decided to Live a Quiet Life in the Countryside'),
 (151,'Deep Insanity: The Lost Child'),
 (152,'The Faraway Paladin'),
 (153,'86 Season 2'),
@@ -198,7 +198,8 @@ INSERT INTO `watched_anime` VALUES
 (160,'Haikyuu!! To the Top Part 1'),
 (161,'Haikyuu!! To the Top Part 2'),
 (162,'Rust-Eater Bisco'),
-(163,'Vanitas no Karte');
+(163,'Vanitas no Karte'),
+(164,'Vanitas no Karte Part 2');
 
 /*!40000 ALTER TABLE `watched_anime` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -212,4 +213,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-12-08 15:11:58
+-- Dump completed on 2022-12-08 15:15:23

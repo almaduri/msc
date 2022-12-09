@@ -26,7 +26,7 @@ CREATE TABLE `watched_anime` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=165 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=166 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -199,7 +199,8 @@ INSERT INTO `watched_anime` VALUES
 (161,'Haikyuu!! To the Top Part 2'),
 (162,'Rust-Eater Bisco'),
 (163,'Vanitas no Karte'),
-(164,'Vanitas no Karte Part 2');
+(164,'Vanitas no Karte Part 2'),
+(165,'Ultraman');
 
 /*!40000 ALTER TABLE `watched_anime` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -213,4 +214,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-12-08 15:15:23
+-- Dump completed on 2022-12-10  0:19:53

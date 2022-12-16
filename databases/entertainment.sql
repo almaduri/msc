@@ -26,7 +26,7 @@ CREATE TABLE `watched_anime` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=167 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=168 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -201,7 +201,8 @@ INSERT INTO `watched_anime` VALUES
 (163,'Vanitas no Karte'),
 (164,'Vanitas no Karte Part 2'),
 (165,'Ultraman'),
-(166,'Ultraman Season 2');
+(166,'Ultraman Season 2'),
+(167,'Aoashi');
 
 /*!40000 ALTER TABLE `watched_anime` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -215,4 +216,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-12-13  5:40:20
+-- Dump completed on 2022-12-16 11:14:23

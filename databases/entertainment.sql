@@ -26,7 +26,7 @@ CREATE TABLE `watched_anime` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=179 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=180 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -213,7 +213,8 @@ INSERT INTO `watched_anime` VALUES
 (175,'The Rising of the Shield Hero Season 2'),
 (176,'Record of Ragnarok Season 2'),
 (177,'Skeleton Knight in Another World'),
-(178,'Shenmue the Animation');
+(178,'Shenmue the Animation'),
+(179,'Spy x Family');
 
 /*!40000 ALTER TABLE `watched_anime` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -227,4 +228,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-02-15  6:53:28
+-- Dump completed on 2023-02-17 11:00:59

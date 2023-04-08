@@ -215,7 +215,8 @@ INSERT INTO `watched_anime` VALUES
 (177,'Skeleton Knight in Another World'),
 (178,'Shenmue the Animation'),
 (179,'Spy x Family'),
-(180,'Boku no Hero Academia Season 6');
+(180,'Boku no Hero Academia Season 6'),
+(181,'The Eminence in Shadow');
 
 /*!40000 ALTER TABLE `watched_anime` ENABLE KEYS */;
 UNLOCK TABLES;
